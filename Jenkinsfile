@@ -23,7 +23,7 @@ pipeline {
         }
     stage("Deploy") {
         steps {
-            echo "Deploying your app"
+            echo "Deploying  app"
             sh """echo "\$(date) - INFO: Dummy log line" > logs.txt """
         }
     }
